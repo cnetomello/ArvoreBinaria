@@ -4,8 +4,7 @@ import java.util.Scanner;
 public class MainArvoreBin {
     public static void main(String[] args) throws InterruptedException {
 
-
-        int limiteSuperior = 10000; // Define o limite superior para geração de números aleatórios
+        int limiteSuperior = 20000; // Define o limite superior para geração de números aleatórios
         Random geradorAleatorio = new Random(1234); // Inicializa um gerador de números aleatórios com uma semente específica
         Scanner entrada = new Scanner(System.in); // Prepara um scanner para entrada do usuário
 
